@@ -45,11 +45,13 @@ const Header = () =>
             
             <div className={s_main.header_logo}>
             <div className={s_main.mobile_items}>
-                <img src="https://glavbukh.kz/public/site/images/manu.png" alt="" srcset=""/>
+               <div className={s_main.more}>
+                   {/* img button more */}
+               </div>
             </div>
             <div className={s_main.main_logo}>
-                <img src="https://www.ukai.co.jp/shiba/common/img/shi_com_logo02.png" alt="" srcset=""/>
-            </div>
+                {/* img logo */}
+             </div>
             </div>
             <Menu/>
         </div>

@@ -2,21 +2,37 @@
     display: flex;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.6979166666666667) 0%, rgba(0, 0, 0, 0.75) 46%, rgba(0, 0, 0, 0.7) 100%);
     padding: 10px;
-    max-height: 45px;
+    max-height: 50px;
     box-shadow: 0px 1px 1.98px 0.02px rgba(0, 0, 0, 0.42);
     justify-content: center;
+}
+
+.main_logo{
+    background-image: url('./../img/logo.png');
+    width: 152px;
+    height: 52px;
 }
 
 .header_logo {
     display: flex;
 }
 
-.header_logo img {
-    width: 156px;
-    height: 45px;
+.more
+{
+    background-image: url('./../img/More.png');
+    width: 50px;
+    height: 40px;
     padding-right: 20px;
+    background-repeat: no-repeat;
 }
-
+.more:hover
+{
+    background-image: url('./../img/More_on.png');
+    width: 50px;
+    height: 40px;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+}
 .menu {
     font-size: 17px;
     display: flex;
